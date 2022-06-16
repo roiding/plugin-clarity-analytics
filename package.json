@@ -1,0 +1,39 @@
+{
+  "name": "vuepress-plugin-clarity-analytics",
+  "version": "2.0.0-beta.47",
+  "description": "VuePress plugin - clarity-analytics",
+  "keywords": [
+    "vuepress-plugin",
+    "vuepress",
+    "plugin",
+    "clarity",
+    "analytics"
+  ],
+  "homepage": "https://github.com/roiding",
+  "bugs": {
+    "url": "https://github.com/roiding/plugin-clarity-analytics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roiding/plugin-clarity-analytics.git"
+  },
+  "license": "MIT",
+  "author": "roiding",
+  "main": "lib/node/index.js",
+  "types": "lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rimraf lib *.tsbuildinfo"
+  },
+  "dependencies": {
+    "@vuepress/client": "workspace:*",
+    "@vuepress/core": "workspace:*",
+    "@vuepress/utils": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

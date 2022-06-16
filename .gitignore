@@ -1,0 +1,5 @@
+lib/
+node_modules/
+*.tsbuildinfo
+package-lock.json
+*.lock
